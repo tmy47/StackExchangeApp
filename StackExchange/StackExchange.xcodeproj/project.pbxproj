@@ -13,6 +13,8 @@
 		A57E347E251E5E4500EF1DAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E347D251E5E4500EF1DAC /* Preview Assets.xcassets */; };
 		A57E3489251E5E4500EF1DAC /* StackExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E3488251E5E4500EF1DAC /* StackExchangeTests.swift */; };
 		A57E3494251E5E4500EF1DAC /* StackExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E3493251E5E4500EF1DAC /* StackExchangeUITests.swift */; };
+		A57E34A6251E5EA500EF1DAC /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34A5251E5EA500EF1DAC /* PreviewData.swift */; };
+		A57E34AE251E5EC100EF1DAC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34AD251E5EC100EF1DAC /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		A57E348F251E5E4500EF1DAC /* StackExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E3493251E5E4500EF1DAC /* StackExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExchangeUITests.swift; sourceTree = "<group>"; };
 		A57E3495251E5E4500EF1DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E34A5251E5EA500EF1DAC /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		A57E34AD251E5EC100EF1DAC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		A57E3475251E5E4300EF1DAC /* StackExchange */ = {
 			isa = PBXGroup;
 			children = (
+				A57E34A4251E5E8700EF1DAC /* Models */,
 				A57E3476251E5E4300EF1DAC /* StackExchangeApp.swift */,
 				A57E3478251E5E4300EF1DAC /* ContentView.swift */,
 				A57E347A251E5E4500EF1DAC /* Assets.xcassets */,
@@ -128,6 +133,15 @@
 				A57E3495251E5E4500EF1DAC /* Info.plist */,
 			);
 			path = StackExchangeUITests;
+			sourceTree = "<group>";
+		};
+		A57E34A4251E5E8700EF1DAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A57E34A5251E5EA500EF1DAC /* PreviewData.swift */,
+				A57E34AD251E5EC100EF1DAC /* Models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,8 @@
 			files = (
 				A57E3479251E5E4300EF1DAC /* ContentView.swift in Sources */,
 				A57E3477251E5E4300EF1DAC /* StackExchangeApp.swift in Sources */,
+				A57E34A6251E5EA500EF1DAC /* PreviewData.swift in Sources */,
+				A57E34AE251E5EC100EF1DAC /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
