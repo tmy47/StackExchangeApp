@@ -27,6 +27,10 @@ class QuestionListViewModel: ObservableObject {
         StackExchangeAPI().loadQuestions(url: url) { (questions) in
             if let questions = questions {
                 self.questions = questions.map(QuestionListCellViewModel.init)
+                
+                /** Filtering logic here, only show questions that have
+                 an accepted anwser and have more that 1 anwser */
+                
                 self.questions = self.questions.filter({ (cellModel) -> Bool in
                     (cellModel.question.is_answered == true && (cellModel.question.answer_count ?? 0) > 1)
                 })

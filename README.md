@@ -2,7 +2,7 @@
 
 **StackExchageApp displays a list of recent StackOverflow Questions**
 
-Questions are filtered on the flowwing criteria
+Questions are filtered on the following criteria
 
 1. Have an accepted answer
 2. Contain more than one answer
