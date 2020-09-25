@@ -13,6 +13,14 @@
 		A57E347E251E5E4500EF1DAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E347D251E5E4500EF1DAC /* Preview Assets.xcassets */; };
 		A57E3489251E5E4500EF1DAC /* StackExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E3488251E5E4500EF1DAC /* StackExchangeTests.swift */; };
 		A57E3494251E5E4500EF1DAC /* StackExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E3493251E5E4500EF1DAC /* StackExchangeUITests.swift */; };
+		A57E34A6251E5EA500EF1DAC /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34A5251E5EA500EF1DAC /* PreviewData.swift */; };
+		A57E34AE251E5EC100EF1DAC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34AD251E5EC100EF1DAC /* Models.swift */; };
+		A57E34B3251E5FB400EF1DAC /* StackExchangeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34B2251E5FB400EF1DAC /* StackExchangeAPI.swift */; };
+		A57E34B8251E5FE800EF1DAC /* QuestionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34B7251E5FE800EF1DAC /* QuestionListViewModel.swift */; };
+		A57E34BD251E600E00EF1DAC /* QuestionListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34BC251E600E00EF1DAC /* QuestionListCellViewModel.swift */; };
+		A57E34C3251E608900EF1DAC /* QuestionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34C2251E608900EF1DAC /* QuestionListView.swift */; };
+		A57E34CB251E60A500EF1DAC /* QuestionListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34CA251E60A500EF1DAC /* QuestionListCellView.swift */; };
+		A57E34D0251E616000EF1DAC /* QuestionData.json in Resources */ = {isa = PBXBuildFile; fileRef = A57E34CF251E616000EF1DAC /* QuestionData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		A57E348F251E5E4500EF1DAC /* StackExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E3493251E5E4500EF1DAC /* StackExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExchangeUITests.swift; sourceTree = "<group>"; };
 		A57E3495251E5E4500EF1DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E34A5251E5EA500EF1DAC /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		A57E34AD251E5EC100EF1DAC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A57E34B2251E5FB400EF1DAC /* StackExchangeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExchangeAPI.swift; sourceTree = "<group>"; };
+		A57E34B7251E5FE800EF1DAC /* QuestionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewModel.swift; sourceTree = "<group>"; };
+		A57E34BC251E600E00EF1DAC /* QuestionListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListCellViewModel.swift; sourceTree = "<group>"; };
+		A57E34C2251E608900EF1DAC /* QuestionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListView.swift; sourceTree = "<group>"; };
+		A57E34CA251E60A500EF1DAC /* QuestionListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListCellView.swift; sourceTree = "<group>"; };
+		A57E34CF251E616000EF1DAC /* QuestionData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuestionData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				A57E3476251E5E4300EF1DAC /* StackExchangeApp.swift */,
-				A57E3478251E5E4300EF1DAC /* ContentView.swift */,
+				A57E34C1251E605500EF1DAC /* Views */,
+				A57E34A4251E5E8700EF1DAC /* Models */,
 				A57E347A251E5E4500EF1DAC /* Assets.xcassets */,
 				A57E347F251E5E4500EF1DAC /* Info.plist */,
 				A57E347C251E5E4500EF1DAC /* Preview Content */,
@@ -108,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				A57E347D251E5E4500EF1DAC /* Preview Assets.xcassets */,
+				A57E34CF251E616000EF1DAC /* QuestionData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -128,6 +146,28 @@
 				A57E3495251E5E4500EF1DAC /* Info.plist */,
 			);
 			path = StackExchangeUITests;
+			sourceTree = "<group>";
+		};
+		A57E34A4251E5E8700EF1DAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A57E34A5251E5EA500EF1DAC /* PreviewData.swift */,
+				A57E34AD251E5EC100EF1DAC /* Models.swift */,
+				A57E34B2251E5FB400EF1DAC /* StackExchangeAPI.swift */,
+				A57E34B7251E5FE800EF1DAC /* QuestionListViewModel.swift */,
+				A57E34BC251E600E00EF1DAC /* QuestionListCellViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A57E34C1251E605500EF1DAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A57E3478251E5E4300EF1DAC /* ContentView.swift */,
+				A57E34C2251E608900EF1DAC /* QuestionListView.swift */,
+				A57E34CA251E60A500EF1DAC /* QuestionListCellView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +275,7 @@
 			files = (
 				A57E347E251E5E4500EF1DAC /* Preview Assets.xcassets in Resources */,
 				A57E347B251E5E4500EF1DAC /* Assets.xcassets in Resources */,
+				A57E34D0251E616000EF1DAC /* QuestionData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57E34C3251E608900EF1DAC /* QuestionListView.swift in Sources */,
+				A57E34B3251E5FB400EF1DAC /* StackExchangeAPI.swift in Sources */,
 				A57E3479251E5E4300EF1DAC /* ContentView.swift in Sources */,
+				A57E34BD251E600E00EF1DAC /* QuestionListCellViewModel.swift in Sources */,
+				A57E34B8251E5FE800EF1DAC /* QuestionListViewModel.swift in Sources */,
 				A57E3477251E5E4300EF1DAC /* StackExchangeApp.swift in Sources */,
+				A57E34CB251E60A500EF1DAC /* QuestionListCellView.swift in Sources */,
+				A57E34A6251E5EA500EF1DAC /* PreviewData.swift in Sources */,
+				A57E34AE251E5EC100EF1DAC /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
