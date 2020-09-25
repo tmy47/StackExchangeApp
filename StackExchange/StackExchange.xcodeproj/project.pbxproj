@@ -15,6 +15,9 @@
 		A57E3494251E5E4500EF1DAC /* StackExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E3493251E5E4500EF1DAC /* StackExchangeUITests.swift */; };
 		A57E34A6251E5EA500EF1DAC /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34A5251E5EA500EF1DAC /* PreviewData.swift */; };
 		A57E34AE251E5EC100EF1DAC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34AD251E5EC100EF1DAC /* Models.swift */; };
+		A57E34B3251E5FB400EF1DAC /* StackExchangeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34B2251E5FB400EF1DAC /* StackExchangeAPI.swift */; };
+		A57E34B8251E5FE800EF1DAC /* QuestionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34B7251E5FE800EF1DAC /* QuestionListViewModel.swift */; };
+		A57E34BD251E600E00EF1DAC /* QuestionListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E34BC251E600E00EF1DAC /* QuestionListCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A57E3495251E5E4500EF1DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57E34A5251E5EA500EF1DAC /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		A57E34AD251E5EC100EF1DAC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A57E34B2251E5FB400EF1DAC /* StackExchangeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExchangeAPI.swift; sourceTree = "<group>"; };
+		A57E34B7251E5FE800EF1DAC /* QuestionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewModel.swift; sourceTree = "<group>"; };
+		A57E34BC251E600E00EF1DAC /* QuestionListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,9 @@
 			children = (
 				A57E34A5251E5EA500EF1DAC /* PreviewData.swift */,
 				A57E34AD251E5EC100EF1DAC /* Models.swift */,
+				A57E34B2251E5FB400EF1DAC /* StackExchangeAPI.swift */,
+				A57E34B7251E5FE800EF1DAC /* QuestionListViewModel.swift */,
+				A57E34BC251E600E00EF1DAC /* QuestionListCellViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57E34B3251E5FB400EF1DAC /* StackExchangeAPI.swift in Sources */,
 				A57E3479251E5E4300EF1DAC /* ContentView.swift in Sources */,
+				A57E34BD251E600E00EF1DAC /* QuestionListCellViewModel.swift in Sources */,
+				A57E34B8251E5FE800EF1DAC /* QuestionListViewModel.swift in Sources */,
 				A57E3477251E5E4300EF1DAC /* StackExchangeApp.swift in Sources */,
 				A57E34A6251E5EA500EF1DAC /* PreviewData.swift in Sources */,
 				A57E34AE251E5EC100EF1DAC /* Models.swift in Sources */,
