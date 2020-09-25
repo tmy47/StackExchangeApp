@@ -9,7 +9,7 @@ import Foundation
 
 
 //Mock Data for Preview Providers
-let questionData:Questions = load("questionData.json")
+let questionData:Questions = load("QuestionData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
